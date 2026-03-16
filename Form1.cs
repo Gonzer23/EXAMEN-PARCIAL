@@ -30,6 +30,7 @@ namespace EXAMEN_PARCIAL
             CargarPacientes();
             CargarDoctores();
             CargarCitas();
+            ActualizarDataGridView();
         }
 
         private void CargarCitas()
@@ -54,7 +55,6 @@ namespace EXAMEN_PARCIAL
                     }
                 }
             }
-            ActualizarDataGridView();
         }
         private void ActualizarDataGridView()
         {
@@ -150,6 +150,13 @@ namespace EXAMEN_PARCIAL
             {
                 MessageBox.Show("Error al agendar la cita: " + ex.Message);
             }
+        }
+
+        private void visualizacionDeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.ShowDialog();
+
         }
     }
 

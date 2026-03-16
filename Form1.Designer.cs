@@ -123,6 +123,7 @@
             this.visualizacionDeToolStripMenuItem.Name = "visualizacionDeToolStripMenuItem";
             this.visualizacionDeToolStripMenuItem.Size = new System.Drawing.Size(133, 20);
             this.visualizacionDeToolStripMenuItem.Text = "Visualización de citas ";
+            this.visualizacionDeToolStripMenuItem.Click += new System.EventHandler(this.visualizacionDeToolStripMenuItem_Click);
             // 
             // dataGridView1
             // 
